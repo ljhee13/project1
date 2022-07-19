@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&family=Nanum+Pen+Script&display=swap");
+
+* {
+  margin: 0;
+}
+
+.hide {
+  display: none;
+}
+
+header {
+  font-family: "Nanum Gothic Coding", monospace;
+  background-color: #f9f7f7;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#print {
+  color: purple;
+}
+
+#name {
+  display: inline-block;
+  padding-top: 30px;
+  font-size: 40px;
+}
+
+img {
+  height: 100%;
+}
+
+main {
+  display: grid;
+  text-align: center;
+  align-items: center;
+  font-family: "Nanum Brush Script", cursive;
+  font-size: 30px;
+  background-color: #dbe2ef;
+  height: 50vh;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+  height: 100%;
+  display: grid;
+  text-align: center;
+}
+
+li {
+  display: grid;
+  align-items: center;
+  height: 100%;
+
+  transition: all 0.3s ease-out;
+}
+
+li:hover {
+  background-color: #3f72af;
+  color: #dbe2ef;
+  cursor: pointer;
+  font-size: 1.3em;
+}
